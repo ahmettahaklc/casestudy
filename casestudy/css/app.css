@@ -1,0 +1,66 @@
+
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+div{
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: ridge;
+
+    margin-bottom: 10px;
+    background-color: cadetblue;
+}
+
+#buttoncreate{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#content{ 
+    margin-bottom: 10px;
+    width: 1400px;
+    margin-left: 10px;
+    margin-right: 100%;
+}
+
+#titlelabel {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#title{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#labelcontent{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    border: 1px;
+    border-color: black;
+    border-radius: 1px;
+    border-style: solid;
+}
+
+p{
+    width: 1400px;
+}
+
+.div-2{
+    min-height: 1400px;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}

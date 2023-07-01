@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Uygulaması</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  
+  <div id="postcreate">
+  <h1>Create Post</h1>
+   <form id="postForm">
+    <label for="title" id="titlelabel">Title:</label>
+    <br>
+    <input type="text" id="title" required>
+    <br>
+    <label for="content" id="labelcontent">Content:</label>
+    <br>
+    <textarea id="content" required></textarea>
+    <br>
+    <button type="submit" id="buttoncreate">Create</button>
+   </form>
+  </div>
+
+  <div class="div-2">
+  <h1>Posts</h1>
+  <ul id="postList"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
