@@ -11,9 +11,9 @@ div{
     border-color: black;
     border-radius: 5px;
     border-style: ridge;
-
     margin-bottom: 10px;
     background-color: cadetblue;
+    
 }
 
 #buttoncreate{
@@ -23,7 +23,9 @@ div{
 
 #content{ 
     margin-bottom: 10px;
-    width: 1400px;
+    width: 1475px;
+    height: 90px;
+    white-space: pre-line;
     margin-left: 10px;
     margin-right: 100%;
 }
@@ -51,11 +53,17 @@ button{
 }
 
 p{
-    width: 1400px;
+    
+    margin-right: 10px;
+    white-space: pre-line; /*satır satır yazabilmek için*/
 }
 
 .div-2{
-    min-height: 1400px;
+    /* width: 1400px;*/
+    height: 700px; 
+    border: 5px solid black; /* Div'in kenarlık stilini belirleme */
+    /* overflow: auto;  Taşan içerik için kaydırma çubukları ekler */
+    word-wrap: break-word; /* Kelimeleri bir alt satıra geçirir */
     
 }
 
